@@ -2,10 +2,10 @@ package com.alex.dev.api_design_pattern.service;
 
 import com.alex.dev.api_design_pattern.model.Cliente;
 
-public interface iClienteService {
+public interface IClienteService {
     Iterable<Cliente> buscarTodos();
 
-    Cliente buscarTodosPorId(Long id);
+    Cliente buscarPorId(Long id);
 
     void inserir(Cliente cliente);
 

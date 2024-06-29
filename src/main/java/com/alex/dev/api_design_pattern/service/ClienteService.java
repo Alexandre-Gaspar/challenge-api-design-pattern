@@ -4,7 +4,7 @@ import com.alex.dev.api_design_pattern.model.Cliente;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ClienteService implements iClienteService {
+public class ClienteService implements IClienteService {
 
     @Override
     public Iterable<Cliente> buscarTodos() {
@@ -12,7 +12,7 @@ public class ClienteService implements iClienteService {
     }
 
     @Override
-    public Cliente buscarTodosPorId(Long id) {
+    public Cliente buscarPorId(Long id) {
         return null;
     }
 
